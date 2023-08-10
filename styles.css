@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Roboto&display=swap');
+
+h1{
+    font-size: 'Borel', serif;
+    text-align: center;
+
+}
+
+body{
+    background: lightyellow;
+}
+
+.emoji-face{
+    background-color: rgb(208, 156, 88);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 0px 2px 2px rgba(0,0,0,0,07);
+    position: relative;
+
+}
+
+.eye1{background-color: black;
+height: 11px;
+width: 12px;
+border-radius: 50%;
+position: absolute;
+top: 30px;
+left: 20px;
+}
+
+.eye2{background-color: black;
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 69px;
+    }
+
+.mouth{
+    background: #bd4d4d;
+    height: 34px;
+    width: 70px;
+    border-radius: 0 0 90px 90px;
+    position: absolute;
+    top: 52px;
+    left: 16px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.tongue{
+    background-color: #ff0909;
+    width: 38px;
+    height: 38px;
+    border-radius: 40px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    z-index: 2;
+}
+
+.mouth-shock{
+    background-color: #ff0909;
+    height: 25px;
+    width: 23px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+
+.mouth-speechless{
+    background-color: #000000;
+    height: 6px;
+    width: 65px;
+    position: absolute;
+    top: 61px;
+    left: 17px;
+    
+}
+
+.emoji-face{
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+
+/* Fixing the emoji*/
+.wrapper{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+
+#heading{
+    text-align: center;
+    font-size: 4em;
+
+}
+
+h1{
+    font-size: 2em;
+
+}
+p{
+    font-size: 1.5em;
+}
+.emoji-face:hover{
+    background: #03fbff;
+    transform: scale(1.5em);
+}
+
+.write-up{
+    background-color: #e1b813;
+    padding: 5% 10%;
+    margin: 10% 20%;
+    text-align: center;
+    border-radius: 20px;                                                                l
+}
